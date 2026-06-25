@@ -7,7 +7,6 @@ class Booking extends CI_Controller {
         parent::__construct();
         $this->load->model('Product_model');
         $this->load->model('Order_model');
-        // USER TIDAK PERLU LOGIN UNTUK AKSES BOOKING
     }
 
     public function index() {
